@@ -7,7 +7,9 @@ import {
   ImageBackground,
 } from 'react-native';
 
+  
 class Slider extends Component {
+  
   render() {
     return (
       <View style={{ alignItems: 'center'}}>
