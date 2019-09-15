@@ -25,7 +25,7 @@ class Slider extends Component {
               }}>
               <View
                 style={{
-                  backgroundColor: 'yellow',
+                  backgroundColor: '#FFF380',
                   padding: 5,
                   borderRadius: 15,
                   paddingHorizontal: 10,
@@ -35,19 +35,19 @@ class Slider extends Component {
 
               <View
                 style={{
-                  backgroundColor: '#000',
+                  backgroundColor: '#2A2728',
                   padding: 5,
                   borderRadius: 15,
                   paddingHorizontal: 10,
                 }}>
-                <Text style={{color: 'yellow', fontWeight: 'bold'}}>
+                <Text style={{color: '#FFF380', fontWeight: 'bold'}}>
                   09 QUESTIONS
                 </Text>
               </View>
             </View>
           </ImageBackground>
           <View style={{margin: 5, marginHorizontal: 15}}>
-            <Text style={{fontWeight: 'bold', color: 'blue'}}>
+            <Text style={{fontWeight: 'bold', color: '#5CB3FF'}}>
               VETERANZ DAY
             </Text>
             <Text>By hakeemullah jan </Text>

@@ -43,12 +43,12 @@ class TopPicks extends Component {
                         }}>
                         <View
                           style={{
-                            backgroundColor: '#000',
+                            backgroundColor: '#2A2728',
                             padding: 5,
                             borderRadius: 15,
                             paddingHorizontal: 10,
                           }}>
-                          <Text style={{color: 'yellow', fontWeight: 'bold'}}>
+                          <Text style={{color: '#FFF380', fontWeight: 'bold'}}>
                             {item.id} QUESTIONS
                           </Text>
                         </View>
@@ -63,10 +63,10 @@ class TopPicks extends Component {
                         justifyContent: 'space-between',
                       }}>
                       <View>
-                        <Text style={{fontWeight: 'bold', color: 'blue'}}>
+                        <Text style={{fontWeight: 'bold', color: '#5CB3FF'}}>
                           {item.author}
                         </Text>
-                        <Text>By hakeemullah</Text>
+                        <Text>By {item.author}</Text>
                       </View>
 
                       <View

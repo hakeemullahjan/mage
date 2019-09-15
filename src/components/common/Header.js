@@ -9,16 +9,26 @@ class Header extends Component {
         <View style={headerStyles}>
           <View>
             <TouchableOpacity>
-              <Image source={require('../../assets/a.png')} style={{width:80,height:55}} />
+              <Image
+                source={require('../../assets/a.png')}
+                style={{width: 80, height: 55}}
+              />
             </TouchableOpacity>
           </View>
 
           <View style={{flexDirection: 'row'}}>
             <TouchableOpacity>
-            <Image source={require('../../assets/ht.png')} style={{width:100,height:55  }} />
+              <Image
+                source={require('../../assets/ht.png')}
+                style={{width: 100, height: 55}}
+                onPress={() => this.props.navigation.navigate('RouteTwo')}
+              />
             </TouchableOpacity>
             <TouchableOpacity>
-            <Image source={require('../../assets/yt.png')} style={{width:50,height:50  }} />
+              <Image
+                source={require('../../assets/yt.png')}
+                style={{width: 50, height: 50}}
+              />
             </TouchableOpacity>
           </View>
         </View>

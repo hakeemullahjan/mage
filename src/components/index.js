@@ -1,4 +1,4 @@
 import MainScreen from './MainScreen';
 import RouteOne from './RouteOne';
-
-export {MainScreen, RouteOne};
+import RouteTwo from './RouteTwo';
+export {MainScreen, RouteOne, RouteTwo};

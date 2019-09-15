@@ -10,14 +10,19 @@ import {
 } from 'react-native';
 
 class Inprogress extends Component {
-  state = {
-    data: [],
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: [],
+    };
+  }
+
   componentDidMount() {
     fetch('https://picsum.photos/v2/list?page=2&limit=10')
       .then(res => res.json())
       .then(data => this.setState({data}));
   }
+
   render() {
     const {containerStyle} = styles;
     const {data} = this.state;
@@ -53,8 +58,6 @@ class Inprogress extends Component {
                   </TouchableOpacity>
                 );
               })}
-
-          
           </ScrollView>
         </View>
       </View>

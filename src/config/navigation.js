@@ -3,13 +3,20 @@ import {createStackNavigator} from 'react-navigation-stack';
 
 import * as Router from '../components/index';
 
-const MainNavigator = createSwitchNavigator({
+const MainNavigator = createStackNavigator({
   MainScreen: {
     screen: Router.MainScreen,
+    navigationOptions: {
+      header: null,
+    },
   },
   RouteOne: {
     screen: Router.RouteOne,
   },
+  RouteTwo: {
+    screen: Router.RouteTwo,
+  },
+ 
 });
 
 export default createAppContainer(MainNavigator);
